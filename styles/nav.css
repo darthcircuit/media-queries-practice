@@ -44,6 +44,8 @@
   width: 100%;
   height: 100%;
   padding: 10px 12px;
+  transform-origin: top left;
+  transform: translateY(7%);
 }
 
 #sas-body {
