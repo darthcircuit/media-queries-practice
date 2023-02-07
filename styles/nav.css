@@ -1,0 +1,76 @@
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 60px;
+  background-color: #1b1b1c;
+  margin-top: 15px;
+  z-index: 10;
+  /* background-color: black; */
+}
+
+.footer-nav a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* 
+.footer-nav > .links-wrapper.menu-button:hover .flyout-container {
+  display: none;
+  flex-direction: column;
+  min-width: 100px;
+  min-height: 100px;
+  bottom: 200px;
+  position: relative;
+} */
+
+.footer-nav > .menu-button {
+  height: 100%;
+  width: 60px;
+  cursor: pointer;
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: block;
+  text-align: center; */
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  padding: 10px 12px;
+}
+
+#sas-body {
+  fill: #464648;
+  scale: 0.15;
+}
+
+.menu-button:hover {
+  background-color: #323233;
+}
+
+.menu-button:hover .flyout-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 60px;
+  background-color: #323233;
+}
+
+.footer-nav .flyout-container {
+  display: none;
+  position: relative;
+  bottom: 100px;
+}
+
+.footer-nav > .menu-button > .flyout-container > .link-wrapper {
+  border-top: solid 0.5px #ccc;
+  padding: 5px 10px;
+  filter: opacity(0.6);
+}

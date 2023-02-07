@@ -1,0 +1,34 @@
+.body-content {
+  height: 100%;
+  width: 100%;
+}
+
+.body-content > .hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 15px;
+  background-color: #000;
+  opacity: 70%;
+  font-size: 1.25rem;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.body-content > .video-wrapper {
+  height: 100%;
+}
+
+#rcVideo {
+  position: fixed;
+  min-width: 200%;
+  transform-origin: top left;
+  transform: translate(-35%, -25%);
+  /* right: 5%; */
+  /* height: 50%; */
+  filter: opacity(0.6) grayscale(100%);
+  margin: 0;
+  padding: 0;
+}
