@@ -31,12 +31,26 @@
     background-color: #1b1b1c;
     cursor: pointer;
   }
+
   .footer-nav > .menu-button > .flyout-container > .link-wrapper {
     width: 80%;
     text-align: center;
+    border: none;
   }
 
   .body-content > .page-content > .text-wrapper p {
-    line-height: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .body-content > .page-content {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 10%; */
+    /* margin: 5%; */
+    padding: 5%;
+    justify-items: center;
+    align-items: center;
+    background-color: #29384d;
   }
 }
